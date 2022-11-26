@@ -1,0 +1,38 @@
+.button-Portfolio:hover {
+    background-color: rgb(209, 209, 209);
+    border: 3px solid black;
+    border-radius: 2em;
+}
+
+.button-contact:hover {
+    background-color: rgb(56, 124, 187);
+    border: solid 3px black;
+    border-radius: 2em;
+}
+
+.text {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(56, 124, 187);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.text p {
+    background-color:rgb(56, 124, 187);
+    font-size: 24px;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+.text:hover {
+    width: 100%;
+}
+
+.text:hover p {
+    opacity: 1;
+}
+

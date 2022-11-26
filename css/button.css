@@ -1,0 +1,24 @@
+.button{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    padding: 1em 2em;
+    transition: 1s;
+}
+
+@media screen and (max-width:800px){
+    .button{
+        font-size: 18px;
+    }
+}
+
+.button-Portfolio {
+    background-color: black;
+}
+
+.button-contact {
+    background-color: rgb(56, 124, 187);
+}
+
